@@ -55,3 +55,244 @@ nav{
     border: #30B868;
     
 }
+/* hero section */
+
+ .container .hero-parent {
+    background-image: url(./assets/hero-bg.png);
+    height: 674px;
+}
+.hero-parent .text{
+    text-align: center;
+}
+
+.text .first-btn{
+    
+    font-size: 16px;
+    padding: 8px 12px 8px 10px;
+    margin-top: 155px;
+    margin-bottom: 15px;
+    color: #30B868;
+    border: #FFFFFF;
+    border-radius: 1000px;
+    background-color: rgba(255, 255, 255, 1);
+    
+}
+.text .heading{
+    font-style: 700;
+    font-size: 42px;
+    font-weight: 700;
+    max-width: 770px;
+    margin: auto;
+    line-height: 84px;
+    
+}
+.heading h2{
+    color: rgba(255, 255, 255, 1);
+}
+.heading span{
+    color: rgba(48, 184, 104, 1);
+}
+.text .paragraph{
+    color: #FFFFFF;
+    max-width: 1360px;
+    height: 60px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 16px 0;
+    font-weight: 400;
+    line-height: ;
+}
+
+.second-btn{
+    width: 1360px;
+    
+    display: flex;
+    margin-left: 600px;
+}
+ .second-btn .one{
+    display: flex;
+    gap: 6px;
+   align-items: center;
+   justify-content: center;
+   padding: 12px 16px;
+   color: #FFFFFF;
+   background-color: #30B868;
+   border: #30B868;
+   border-radius: 3px;
+   gap: 10;
+   font-weight: 600;
+   
+}
+
+
+.two{
+    color: #FFFFFF;
+    background-color: transparent;
+    padding: 12px 16px;
+    margin-left: 16px;
+    background-color: ;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 3px;
+    
+    font-weight: 600;
+    
+}
+/* note section */
+
+.note-heading{
+    display: flex;
+    flex-direction: column;
+    max-width: 1360px;
+    max-height: 152px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    gap: 16px;
+
+}
+.note-heading h2{
+    color: #001931;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.note-heading p{
+    color:#627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.note-box{
+    max-width: 1360px; 
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+    
+    justify-content: center;
+
+}
+.note-box .card{
+    padding: 24px;
+    
+    max-width: 322px;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.06);;
+    border-radius: 8px;
+    background-color:  rgba(255, 255, 255, 1);;
+    
+}
+.card img{
+    max-width: 60px;
+    gap: 16px;
+    background-color: #F95555;
+    border: 10px solid #F95555;
+    border-radius: 100px;
+    margin-bottom: 16px;
+    margin-left: 109px;
+}
+.card h2{
+    color: #001931;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+    
+.card p{
+    
+    color:#627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+/* brain section */
+.brain-section{
+    display: flex;
+    padding: 120px;
+    max-width: 1360px;
+    max-height: 600px;
+    margin: 0 auto;
+    
+    gap: 60px;
+}
+.brain-paragraph{
+    max-width: 700px;
+    max-height: 396px;
+}
+.brain-paragraph .first-paragraph{
+    color: #30B868;
+    padding-top: 120px;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.brain-paragraph .brain-head{
+    color: #001931;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.brain-paragraph .second-paragraph{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.brain-paragraph .list-items {
+    list-style: none;
+    
+}
+.first-li{
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    margin-bottom: 16px;
+}
+.second-li{
+    margin-bottom: 16px;
+}
+.third-li{
+    margin-bottom: 16px;
+}
+.fourth-li{
+    margin-bottom: 16px;
+}
+
+.icon img{
+   height: 16px;
+}
+/* footer section */
+.footer-section{
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 120px 30px 120px;
+    gap: 790px;
+    
+}
+.social-icons .social h2{
+    color: #FFFFFF;
+    margin-bottom: 16px;
+
+}
+#footer-container{
+    background-color:  #001931;;
+}
+#footer-container .footer-paragraph{
+    color: #FAFAFA;
+    
+    text-align: center;
+    border-top: 1px solid grey;
+    padding: 20px;
+    width: 900px;
+    margin: 0 auto;
+}
